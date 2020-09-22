@@ -1,0 +1,28 @@
+.dashboardContainer {
+  display: flex;
+
+  &__sidebarMain {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-sidebar-primary;
+    height: 92.5vh;
+    width: 17%;
+
+    & a {
+      text-decoration: none;
+      color: $color-sidebar-text;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+
+    & a:first-child {
+      margin-top: 1rem;
+    }
+  }
+
+  &__component {
+    width: 100%;
+    height: 92.5vh;
+    overflow-y: scroll;
+  }
+}

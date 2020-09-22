@@ -1,0 +1,38 @@
+.createPostContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    & form {
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+
+       & textarea {
+           width: 500px;
+           height: 200px;
+           padding: 0.5rem;
+           letter-spacing: 0.1rem;
+           line-height: 1rem;
+           border-radius: 10px;
+       }
+
+       & div {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+
+            & button {
+                margin-top: 2rem;
+                padding: 0.5rem;
+                background-color:$color-secondary-blue;
+                color: $color-primary-white;
+                border: none;
+                cursor: pointer;
+            }
+       }
+
+       
+    }
+}

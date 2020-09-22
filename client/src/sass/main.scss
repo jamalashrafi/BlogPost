@@ -1,0 +1,12 @@
+@import 'abstracts/variables';
+
+@import 'base/base';
+@import 'base/typography';
+
+@import 'component/blogView';
+@import 'component/login.scss';
+@import 'component/dashboard.scss';
+@import 'component/createPost.scss';
+@import 'component/updateProfile.scss';
+
+@import 'layout/header';
